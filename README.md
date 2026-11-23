@@ -4,7 +4,9 @@
 
 ![AETHER Preview](https://img.shields.io/badge/Audio-Spatial%20Web%20Audio%20API-8B5CF6?style=for-the-badge)
 ![UI](https://img.shields.io/badge/Design-Cyberpunk%20%2F%20Glassmorphism-06B6D4?style=for-the-badge)
-![Deployment](https://img.shields.io/badge/Deployment-Live-EC4899?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen?style=for-the-badge)](https://harshavardhan18620.github.io/AETHER-Music-Streaming/)
+
+🌐 **Live Application**: [https://harshavardhan18620.github.io/AETHER-Music-Streaming/](https://harshavardhan18620.github.io/AETHER-Music-Streaming/)
 
 ---
 
@@ -61,7 +63,7 @@ No build step or dependencies required!
 ### Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/gudlaharshavardhanoffl7-crypto/AETHER-Music-Streaming.git
+   git clone https://github.com/Harshavardhan18620/AETHER-Music-Streaming.git
    ```
 2. Navigate into the folder:
    ```bash
@@ -71,6 +73,24 @@ No build step or dependencies required!
    ```bash
    start index.html
    ```
+
+---
+
+## 🌐 Deployment
+
+### GitHub Pages (Automated)
+This repository includes a pre-configured GitHub Actions workflow in `.github/workflows/deploy.yml` and a `gh-pages` branch.
+1. In your GitHub repository, navigate to **Settings** > **Pages**.
+2. Under **Build and deployment** > **Source**:
+   - Choose **GitHub Actions** (recommended) for automatic deployments on push, OR
+   - Choose **Deploy from a branch** and select `gh-pages` (or `main`) with `/ (root)`.
+3. Your web app is live at:
+   👉 **[https://harshavardhan18620.github.io/AETHER-Music-Streaming/](https://harshavardhan18620.github.io/AETHER-Music-Streaming/)**
+
+### Vercel / Netlify
+Since AETHER is a pure client-side web application:
+- **Vercel**: Import the GitHub repo `Harshavardhan18620/AETHER-Music-Streaming` directly on [vercel.com](https://vercel.com). No build command needed (root directory `./`).
+- **Netlify**: Connect your GitHub repo on [netlify.com](https://netlify.com) with publish directory set to `.`.
 
 ---
 
