@@ -78,12 +78,13 @@ No build step or dependencies required!
 
 ## 🌐 Deployment
 
-### GitHub Pages (Automated)
-This repository includes a pre-configured GitHub Actions workflow in `.github/workflows/deploy.yml` and a `gh-pages` branch.
+### GitHub Pages (Instant Deployment)
+This repository is configured for automated GitHub Pages hosting via the `gh-pages` and `main` branches.
 1. In your GitHub repository, navigate to **Settings** > **Pages**.
 2. Under **Build and deployment** > **Source**:
-   - Choose **GitHub Actions** (recommended) for automatic deployments on push, OR
-   - Choose **Deploy from a branch** and select `gh-pages` (or `main`) with `/ (root)`.
+   - Select **Deploy from a branch**
+   - Choose Branch: `gh-pages` (or `main`) and folder: `/ (root)`
+   - Click **Save**.
 3. Your web app is live at:
    👉 **[https://harshavardhan18620.github.io/AETHER-Music-Streaming/](https://harshavardhan18620.github.io/AETHER-Music-Streaming/)**
 
